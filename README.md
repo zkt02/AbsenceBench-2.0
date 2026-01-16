@@ -45,7 +45,11 @@ To generate the key evidence visualizations used in the report, execute the foll
 
 ```bash
 # Generate the output capacity ceiling analysis (Figure 2)
-python result_analysis/poetry_ceiling_zoom.py --file results/poetry_results.json
+python result_analysis/poetry_ceiling_zoom.py results/poetry_results.json
 
-# Generate the omission-rate sensitivity scatter plot (Figure 3)
-python result_analysis/plot_scatter_omission_rate.py --file results/recipes_results.json --raw data/recipe.jsonl
+# Generate the omission-rate sensitivity scatter plot (Figure 3/5)
+python result_analysis/plot_scatter_omission_rate.py \
+    --file results/recipes_results.json \
+    --raw data/recipe.jsonl \
+    --title "Omission Rate Sensitivity (Recipes)" \
+    --output results/recipes_scatter.png
