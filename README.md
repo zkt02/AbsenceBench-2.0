@@ -1,9 +1,9 @@
 # AbsenceBench 2.0: Replication & Extension (cLab Trial Project)
 
-**Author:** Zekai Tong (University of Chicago)
-**Full Report:** [Read the technical report (PDF)](./Zekai_Tong-Trail_Project_Report-AbsenceBench.pdf)
-**Context:** Trial Project for Conceptualization Lab (Project 5)
-**Target Model:** Gemini-2.5-Flash (Baseline vs. Thinking Mode)
+**Author:** Zekai Tong (University of Chicago)  
+**Full Report:** [Read the technical report (PDF)](./Zekai_Tong-Trail_Project_Report-AbsenceBench.pdf)  
+**Context:** Trial Project for Conceptualization Lab (Project 5)  
+**Target Model:** Gemini-2.5-Flash (Baseline vs. Thinking Mode)  
 
 This project replicates the core findings of the original AbsenceBench benchmark and extends the evaluation to a new domain, **Recipes**, focusing on the trade-off between "semantic reconstruction" and "verbatim fidelity" in reasoning-enhanced Large Language Models (LLMs).
 
